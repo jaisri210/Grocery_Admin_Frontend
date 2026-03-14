@@ -13,7 +13,7 @@ const AddProduct = () => {
     price: "",
     countInStock: "",
     description: "",
-    image: "https://via.placeholder.com/150", // Placeholder until you add file upload
+    image: "https://via.placeholder.com/150",
   });
 
   const handleChange = (e) => {
