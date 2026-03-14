@@ -25,7 +25,7 @@ const AddProduct = () => {
     setLoading(true);
 
     try {
-      const token = localStorage.getItem("token"); // From your Login logic
+      const token = localStorage.getItem("token");
       const config = {
         headers: { Authorization: `Bearer ${token}` },
       };

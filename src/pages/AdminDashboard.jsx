@@ -57,9 +57,7 @@ const AdminDashboard = () => {
       {/* HEADER */}
       <h1 className="text-xl font-bold text-gray-800">Dashboard</h1>
 
-      {/* ===================== */}
       {/* DESKTOP LAYOUT */}
-      {/* ===================== */}
       <div className="hidden md:block space-y-6">
         {/* STAT CARDS */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
@@ -160,9 +158,7 @@ const AdminDashboard = () => {
         </div>
       </div>
 
-      {/* ===================== */}
       {/* MOBILE LAYOUT */}
-      {/* ===================== */}
       <div className="md:hidden space-y-4">
         {/* STAT CARDS STACKED */}
         <StatCard
