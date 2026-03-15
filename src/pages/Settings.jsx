@@ -122,7 +122,7 @@ const Settings = () => {
 
       <button
         onClick={handleSave}
-        className="bg-[#5e8741] text-white px-6 py-2 rounded-lg"
+        className="bg-[#5e8741] text-white px-6 py-2 rounded-lg cursor-pointer hover:bg-green-700"
       >
         Save All Settings
       </button>

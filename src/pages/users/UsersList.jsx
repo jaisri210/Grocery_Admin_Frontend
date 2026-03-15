@@ -214,14 +214,14 @@ const UsersList = () => {
 
                   <button
                     onClick={() => toggleStatus(user._id)}
-                    className="bg-[#5e8741] text-white px-3 py-1 rounded text-sm"
+                    className="bg-[#5e8741] text-white px-3 py-1 rounded text-sm cursor-pointer"
                   >
                     {user.isBlocked ? "Unblock" : "Block"}
                   </button>
 
                   <button
                     onClick={() => handleDelete(user._id)}
-                    className="bg-red-600 text-white px-3 py-1 rounded text-sm"
+                    className="bg-red-600 text-white px-3 py-1 rounded text-sm cursor-pointer"
                   >
                     Delete
                   </button>
